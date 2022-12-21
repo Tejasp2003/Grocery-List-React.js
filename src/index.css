@@ -5,17 +5,18 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
-  background-color: #3c87ff;
+  background-color: #EB455F;
  
 }
 .section-center
 {
   max-width: 405px;
   margin: 135px auto;
-  background: #fff;
+  background: #F9B5D0;
   border-radius: 7px;
   padding: 28px 0;
-  overflow: hidden;
+  padding-bottom: 4.5rem;
+
   border-radius: 20px;
 }
 .grocery-form
@@ -45,6 +46,12 @@ body {
   font-size: 1.105rem;
   padding: 0.2rem;
 
+}
+.form-control input ::placeholder
+{
+  font-size: 1rem;
+  text-align: center;
+  align-items: center;
 }
 .alert
 {
@@ -81,6 +88,8 @@ body {
   border-radius: 10px;
   font-size: 1.105rem;
   padding: 0.2rem;
+  cursor: pointer;
+  background-color: #FFFFD0;
 }
 
 .grocery-container
@@ -104,8 +113,8 @@ body {
   max-width: 380px;
   justify-content: space-between;
   display: flex;
-  border: 2px solid red;
-  background-color:aquamarine;
+  border: 3px solid black;
+  background-color:#EEEEEE;
   border-radius: 10px;
   align-items: center;
 }
@@ -113,13 +122,14 @@ body {
 {
   border: none;
   outline: none;
-  background-color: #3c87ff;
+  background-color: #FFFFD0;
   border-radius: 5px;
   padding: 10px 15px;
   cursor: pointer;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 13px;
   margin: auto;
+  font-weight: bold;
   display: flex;
   
 
